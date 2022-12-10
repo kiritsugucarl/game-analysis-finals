@@ -144,7 +144,6 @@ while running:
                 obstacles.append(random.randint(obstacles[-1] + 280, obstacles[-1] + 320))
                 y_positions.append(random.randint(0, 300))
                 score += 1
-                obstacle_speed += 0.1
     
     if active:
         score_text = font.render(f'Score : {score}', True, white)
